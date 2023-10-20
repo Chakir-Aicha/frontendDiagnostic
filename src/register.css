@@ -1,0 +1,88 @@
+.register-container {
+    display: flex;
+}
+
+.image-container {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image-container img {
+    max-width: 50%;
+    height: auto;
+}
+.overlay {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #5F4FC1;
+    z-index: 1;
+}
+
+.form-container {
+    flex: 1;
+    padding: 30px;
+    font-family: Inter;
+}
+.form-container-login {
+    flex: 1;
+    padding: 150px 30px 30px 30px;
+    font-family: Inter;
+}
+
+
+h2 {
+    font-family: BB Noname ;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 10px;
+    font-family: Inter;
+}
+
+.input-wrapper {
+    flex: 1;
+    border-radius: 12px;
+    margin-right: 30px;
+}
+.input-wrapper.telephone input{
+    width: 50%; /* Par exemple, ajustez la largeur à 50% */
+    border-radius: 12px;
+    border: 1px solid #ccc;
+
+}
+.input-wrapper.telephone label {
+    color: #141111;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    color: #141111;
+    display: block; /* Affiche le label sur une nouvelle ligne */
+    margin-bottom: 5px; /* Ajoute une marge en bas pour l'espacement vertical */
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+}
+
+button {
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 35%;
+    font-size: 14px;
+    background: #5F4FC1;
+    text-align: center;
+}
